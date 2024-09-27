@@ -14,10 +14,11 @@ public class EjercicioCinco {
          System.out.println("Escribe tu nombre");
          nombre = scanner.next();
 
-        scanner.close();
+        
 
-         System.out.println("Esta edad es " + edad);
+        System.out.println("Esta edad es " + edad);
          System.out.println("Este es tu peso " + peso);
          System.out.println("Este es tu nombre " + nombre);
+         scanner.close();
+        }
     }
-}
