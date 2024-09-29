@@ -11,7 +11,7 @@ public class EjercicioVeinte {
         if(num>=0 && num%2==0) {
         System.out.println("Tu numero es entero y par");
 
-        }else if(num>=0 || !(num%3==0)){
+        }else if(num<=0 || (num%3==0)){
         System.out.println("Tu numero es negativo o impar ");
         }
         scanner.close();
